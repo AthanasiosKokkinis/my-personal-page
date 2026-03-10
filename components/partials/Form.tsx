@@ -8,10 +8,10 @@ export const Form = () =>
     const [subject, setSubject] = useState<string|null>(null);
     const [message, setMessage] = useState<string|null>(null);
 
-    const validateForm = (): boolean =>
-    {
-
-    }
+    // const validateForm = (): boolean =>
+    // {
+    //
+    // }
 
     return(
         <section className="bg-white rounded-2xl w-full">
